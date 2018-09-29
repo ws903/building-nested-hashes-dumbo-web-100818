@@ -19,7 +19,8 @@ def bonus
       ]
    }
   }
-
+  
+  puts bonus[:montague][:hero][:status]
   bonus[:montague][:hero][:status] = "dead"
   bonus[:capulet][:heroine][:status] = "dead"
 
